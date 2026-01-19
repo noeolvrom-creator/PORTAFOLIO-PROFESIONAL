@@ -1,20 +1,28 @@
-# PORTAFOLIO-PROFESIONAL - Noé Olvera
+# Embedded Linux – Neural Network Signal Recognition
 
-## About Me
-I am a Mechatronics Engineer with a strong interest in embedded software, firmware development, and hardware–software integration.
-My experience includes C/C++ development, microcontrollers, communication protocols, and embedded Linux.
+## Overview
+Embedded system project focused on signal recognition using neural networks
+deployed on a Raspberry Pi running Embedded Linux.
 
-## Technical Skills
-- Languages: C, C++, Python (basic)
-- Embedded: PIC, Arduino, Raspberry Pi
-- Protocols: I2C, UART, RS232, Modbus
-- Systems: Embedded Linux (basic), Control Systems
-- Tools: Git, Qt, LabVIEW
+## Hardware
+- Raspberry Pi 4
+- Camera module
 
-## Projects
-- Robot Manipulator 3 DOF (PIC, C, I2C, PID)
-- PID Tuning Application (Qt, C++)
-- Embedded Linux Data Acquisition (Raspberry Pi)
-- Modbus-based Control System
+## Software Stack
+- Python
+- TensorFlow
+- Keras
+- Embedded Linux (Raspberry Pi OS)
 
-Each project includes source code, system architecture, and technical documentation.
+## Key Features
+- Training and validation of neural network models
+- Real-time data acquisition using camera input
+- Deployment of trained model on embedded hardware
+
+## Testing & Validation
+- Model validation with confidence levels between 85% and 99%
+- Functional testing in embedded environment
+
+## Notes
+This project combines embedded Linux, Python-based development,
+and hardware–software integration.
